@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header{
+    height: 15vh;
+    background-color: red;
+}
+
+.content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.footer{
+    height: 15vh;
+    background-color: blue;
+}
+.button{
+    align-self: center;
+}
+.sidebar{
+    background-color: green;
+    width: 15vw;
+}
